@@ -55,7 +55,7 @@ section.imagem > p {
 }
 #img01{
     background-image: url('../Imagens/walpaper1.png');
-    
+    background-position: 10%;
 }
 #img02 {
     background-image: url('../Imagens/walpaper2.jpg');
