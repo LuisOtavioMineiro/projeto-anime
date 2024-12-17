@@ -49,13 +49,12 @@ section > p {
 section.imagem > p {
     display:inline-block;
     padding: 90px;
-    margin-bottom: 60px;
+    margin: 90px;
     background-color: rgb(0, 0, 0,0.615);
     text-shadow: 1px 1px black;
 }
 #img01{
     background-image: url('../Imagens/walpaper1.png');
-    background-position:  center center;
     
 }
 #img02 {
