@@ -12,7 +12,7 @@
     margin: 0;
 }
 html , body {
-    min-height: 100vh;
+    background-size: 100vh;
     background-color: darkgray;
     font-family: var(--font1);
 }
@@ -29,22 +29,25 @@ header > h1 {
     font-weight: 10vw;
 }
 section {
-    padding: 10vh;
-    padding-bottom: 10vh;
-    line-height: 2em;
-    padding-left: 30px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 1.8;
     font-family: var(--font3);
     font-size: 3.5vw;
+    color: white;
 }
 section > p {
     padding-bottom: 2em;
 }
 .imagem {
     background-color: rgba(51, 51, 51);
-    color: white;
-    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.472);
     background-size: cover;
     background-attachment: fixed;
+    background-position: center;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.472);
 }
 section.imagem > p {
     display:inline-block;
@@ -55,17 +58,15 @@ section.imagem > p {
 }
 #img01{
     background-image: url('../Imagens/walpaper1.png');
-    background-position: 10%;
+    background-size: 100% 100%;
+    
 }
 #img02 {
     background-image: url('../Imagens/walpaper2.jpg');
-    background-position: center;
 }
 #img03 {
-    background-image: url('../Imagens/walpaper3.jpg');
-    background-position: center;
+    background-image: url('../Imagens/walpaper3.jpg');   
 }
 #img04 {
     background-image: url('../Imagens/walpaper4.jpg');
-    background-position: center;
 }
