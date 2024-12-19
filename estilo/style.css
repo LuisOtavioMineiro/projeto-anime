@@ -43,27 +43,24 @@ section > p {
     padding-bottom: 2em;
 }
 .imagem {
-    background-color: rgba(51, 51, 51);
+    background-color: rgba(0, 0, 0, 0.638);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.472);
+    box-shadow: inset 6px 6px 13px rgba(160, 145, 145, 0.167);
 }
 section.imagem > p {   
     display: inline-block;
-    
+    font-size: 1.3rem;
     padding: 60px;
     margin: 60px;
-    font-size: 1em;
-    background-color: rgb(0, 0, 0,0.615);
-    text-shadow: 1px 1px black;
+    background-color: rgba(0, 0, 0, 0.764);
+    text-shadow: 1px 1px rgba(207, 154, 154, 0.473);
 }
 #img01{
     background-image: url('../Imagens/walpaper1.png' );
     background-size: 50em 95%;
     background-repeat: no-repeat;
-    
-    
 }
 #img02 {
     background-image: url('../Imagens/walpaper2.jpg');
