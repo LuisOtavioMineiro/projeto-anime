@@ -72,6 +72,9 @@ section.imagem > p {
 #img04 {
     background-image: url('../Imagens/walpaper4.jpg');
 }
+#img05 {
+    background-image: url('../Imagens/walpaper5.jpg');
+}
 footer {
     text-align: center;
     background-color: black;
