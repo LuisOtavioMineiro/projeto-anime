@@ -72,3 +72,10 @@ section.imagem > p {
 #img04 {
     background-image: url('../Imagens/walpaper4.jpg');
 }
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    padding-bottom: 25px;
+}
