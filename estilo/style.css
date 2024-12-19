@@ -34,7 +34,7 @@ section {
     justify-content: center;
     align-items: center;
     text-align: center;
-    line-height: 1.8;
+    line-height: 1.1;
     font-family: var(--font3);
     font-size: 3.5vw;
     color: white;
@@ -49,10 +49,12 @@ section > p {
     background-position: center;
     box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.472);
 }
-section.imagem > p {
-    display:flex;
-    padding: 90px;
-    margin: 90px;
+section.imagem > p {   
+    display: inline-block;
+    
+    padding: 60px;
+    margin: 60px;
+    font-size: 1em;
     background-color: rgb(0, 0, 0,0.615);
     text-shadow: 1px 1px black;
 }
