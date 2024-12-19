@@ -51,7 +51,6 @@ section > p {
 }
 section.imagem > p {   
     display: inline-block;
-    font-size: 1.3rem;
     padding: 60px;
     margin: 60px;
     background-color: rgba(0, 0, 0, 0.764);
@@ -80,4 +79,14 @@ footer {
     color: white;
     padding: 15px;
     padding-bottom: 25px;
+}
+@media  (max-widht: 468px) {
+    section.imagem > p {
+        flex-wrap: wrap;
+    }
+}
+@media (min-widht: 678px) and (max-widht: 1024px) {
+    section.imagem > p {
+    flex-wrap: wrap;    
+    }
 }
